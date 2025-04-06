@@ -123,13 +123,25 @@ img {
   }
   
   .hero-image-header {
-    color: var(--WHITE, #fff);
-    text-align: center;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 107.143%; /* 107.143% */
-    letter-spacing: 1.12px;
-    max-width: 496px;
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/background-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: var(--WHITE);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  max-width: 1440px;
   }
   
   .hero-image-button {
